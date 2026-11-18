@@ -11,7 +11,11 @@ Aplicação web de chat integrada a um modelo de linguagem (LLM), desenvolvida c
 - JavaScript
 - Fetch API
 - API Gemini, do Google
-- Modelo: `gemini-3.8-flash`
+- Modelos: `gemini-3.8-flash`
+           `gemini-3.7-flash`
+           `gemini-3.6-flash`
+           `gemini-3.5-flash`
+
 
 ## 3. Funcionalidades
 
