@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="acesso">
+                <h3>Key</h3>
+                <input type="password" id="apiKey" placeholder="Digite sua API Key" autocomplete="off">
+                <button id="acessar" type="button">Confirmar</button>
+                <p id="statusKey" role="status" aria-live="polite"></p>
+            </div>
+
+            <h3>Conversas</h3>
+            <div id="lista-conversas"></div>
+            <button id="novo-chat" type="button">+ Novo Chat</button>
+        </aside>
+
+        <main class="principal">
+            <header>
+                <h1>MEU CHAT</h1>
+            </header>
+
+            <section id="chat" aria-live="polite">
+                <div class="mensagem ia">Olá! Como posso ajudar?</div>
+            </section>
+
+            <footer>
+                <input type="text" id="mensagem" placeholder="Digite sua mensagem..." autocomplete="off">
+                <button id="enviar" type="button" aria-label="Enviar mensagem">➤</button>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
